@@ -1,0 +1,95 @@
+html {
+    background-color: #FAFEFF;
+    text-align: center;
+    font-family: 'Titillium Web', sans-serif;
+    overflow: auto;
+}
+
+.container {
+    margin-top: 2%;
+}
+
+h1 {
+    padding-top: 2.5rem;
+    font-size: 4rem;
+    font-weight:bolder;
+    color: #333;
+    font-family: 'Raleway', sans-serif;
+}
+
+h2 {
+    font-size: 2.4rem;
+    font-weight:bold;
+    color: #666;
+    font-family: 'Raleway', sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+a:visited {
+    color: dimgrey;
+}
+
+.personal {
+    margin: 0 .3rem 1rem .3rem;
+}
+
+.hire {
+    margin-left: .7rem;
+}
+
+.iconList li {
+    display: inline-flex;
+    padding-right: 1.5rem;
+}
+
+.iconList li .icon {
+    height: 5rem;
+    transition: all 1s;
+}
+
+.iconList li .icon:hover {
+    height: 6.5rem;
+    -webkit-filter: invert(.8);
+}
+
+.projectList li {
+    display: inline-flex;
+    padding-right: 1.5rem;
+}
+
+.projectList li .project {
+    height:15rem;
+    transition: all 1s;
+}
+
+.projectList li .project:hover {
+    height:17rem;
+    opacity: 0.7;
+    filter: alpha(opacity=70); /* For IE8 and earlier */
+}
+
+.contactMe {
+    display: none;
+    margin: 0 auto;
+    width: 50%;
+}
+
+#submit_form {
+    -webkit-appearance: none;
+}
+
+.resume {
+    height: 100vw;
+    margin: 1rem;
+}
+
+#heart {
+    position: relative;
+    top:.4rem;
+    height: 2rem;
+    margin: -.1rem;
+}
