@@ -11,6 +11,7 @@ $(function() {
     }
 
     $('.hire').on('click', function () {
+        $(this).text('Let\'s chat!');
         toggle();
     });
 

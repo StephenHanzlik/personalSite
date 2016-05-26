@@ -39,6 +39,13 @@ a:visited {
 
 .hire {
     margin-left: .7rem;
+    -webkit-animation: pulsate 7s ease-in-out;
+    -webkit-animation-iteration-count: infinite;
+}
+
+@-webkit-keyframes pulsate {
+    50% {background-color: black;}
+    50% {border: 1px solid black;}
 }
 
 .iconList li {
